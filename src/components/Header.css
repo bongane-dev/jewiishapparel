@@ -20,6 +20,10 @@ background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.mini_nav{
+  display:block;
+  text-align: center;
+}
 .logo_item{
   display: inline-block;
   justify-content: end;
@@ -28,6 +32,24 @@ background-clip: text;
   margin-left: 50px;
   padding: 5px;
   border-radius: 20px;
-  text-align: right;
+ 
   
+}
+.nav_bar{
+text-align: center;
+margin-top: 0;
+
+}
+.nav_item{
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  background-color: #291a1a;
+  border-radius: 10px;
+  padding: 5px;
+}
+a{
+  text-decoration:wavy;
+  color: gold;
 }
