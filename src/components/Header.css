@@ -1,0 +1,33 @@
+/* Fire animation for h1 */
+.logo_section{
+  display: block;
+  background-color: rgba(69, 21, 21, 0.419);
+  margin-right: 0;
+}
+h1 {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 900;
+  background: linear-gradient(
+    to bottom,
+    #ffff00,
+    #ff9900,
+    #ff3300,
+    #990000
+  );
+  
+background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo_item{
+  display: inline-block;
+  justify-content: end;
+  background-color: #535338;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: right;
+  
+}
