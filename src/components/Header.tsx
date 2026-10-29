@@ -9,7 +9,7 @@ function HeaderSection(){
     return(<>
           <div className="header_section">
           <section className="logo_section">
-             <h1>JEWIISH APPAREL</h1>
+             <h1>JEWiiSH APPAREL</h1>
                     <section className="mini_nav">
             <p className="logo_item">{signUp}</p>
             <p className="logo_item">{signIn}</p>
