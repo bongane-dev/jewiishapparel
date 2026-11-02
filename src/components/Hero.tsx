@@ -53,7 +53,7 @@ function HeroSection() {
               <img src={img15}/>
             </div>
           </section>
-          <img className="founders-image" src={founders} alt="The founders" />
+          
         </div>
       </div>
     </section>

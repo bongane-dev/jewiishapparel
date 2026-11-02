@@ -1,0 +1,107 @@
+.product_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem;
+  padding: clamp(2rem, 6vw, 4rem) 1.5rem;
+  border: 1px solid rgba(220, 174, 87, 0.2);
+  border-radius: 24px;
+  background:
+    radial-gradient(ellipse at top, rgba(121, 71, 34, 0.34), transparent 65%),
+    #211b17;
+}
+
+.product_heading {
+  margin: 0;
+  color: #f4e3bf;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.product_nav {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  background: rgba(8, 8, 8, 0.46);
+}
+
+.product_item {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.75rem 1.2rem;
+  background: transparent;
+  color: #d3c7b5;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.product_item:hover {
+  border-color: rgba(220, 174, 87, 0.35);
+  color: #fff3d4;
+  transform: translateY(-2px);
+}
+
+.product_item.is-active {
+  border-color: #e0b75f;
+  background: linear-gradient(135deg, #f0cf82, #c28a37);
+  box-shadow: 0 4px 18px rgba(205, 151, 59, 0.28);
+  color: #21180d;
+}
+
+.product_item:focus-visible {
+  outline: 2px solid #ffe4a3;
+  outline-offset: 3px;
+}
+
+.products {
+  min-height: 3rem;
+  text-align: center;
+}
+
+.selected_category {
+  margin: 0;
+  color: #b7a995;
+}
+
+.selected_category span {
+  color: #f0cf82;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .product_section {
+    margin: 1rem;
+    border-radius: 18px;
+  }
+
+  .product_nav {
+    border-radius: 20px;
+  }
+
+  .product_item {
+    padding: 0.65rem 0.9rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product_item {
+    transition: none;
+  }
+}

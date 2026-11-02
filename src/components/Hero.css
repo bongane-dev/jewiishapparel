@@ -26,7 +26,7 @@
     margin: 0;
     color: red;
     font-style: italic;
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
 
@@ -60,13 +60,7 @@
     transition: transform 0.4s ease;
   }
 
-  .founders-image {
-    width: 45%;
-    max-height: 100%;
-    object-fit: contain;
-    align-self: center;
-    /* border-radius: 50px; */
-  }
+  
 
   .slider-track img:hover {
     transform: scale(1.03);
@@ -95,7 +89,5 @@
     .hero-video {
       width: 50%;
     }
-    .founders-image{
-        display: none;
-    }
+    
 }
