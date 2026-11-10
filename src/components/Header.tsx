@@ -10,7 +10,11 @@ function HeaderSection() {
     <div className="header_section">
       <section className="logo_section">
         <div className="brand_wrap">
-          <img src="/logo.png" alt="Jewiish Apparel logo" className="brand_logo" />
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            alt="Jewiish Apparel logo"
+            className="brand_logo"
+          />
           <h1 className="h1_header">JEWIISH APPAREL</h1>
         </div>
 
