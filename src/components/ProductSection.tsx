@@ -15,7 +15,7 @@ export default function ProductSection() {
 
   return (
     <section className="product_section" aria-labelledby="product-heading">
-      <h2 className="product_heading" id="product-heading">Shop the collection</h2>
+      <h2 className="product_heading" id="product-heading">Apparel collection</h2>
 
       <nav className="product_nav" aria-label="Product categories">
         {productCategories.map((category) => (
@@ -33,6 +33,7 @@ export default function ProductSection() {
 
       <div className="products" aria-live="polite">
         <p className="selected_category">
+          collection: 
           <span>{activeCategory}</span>
         </p>
 
@@ -40,13 +41,16 @@ export default function ProductSection() {
           {visibleProducts.map((product) => (
             <article className="product_box" key={product.id}>
               <div className="product_image_wrapper">
-                <img src={product.image} alt={product.name} />
+                <img
+                  src={`${import.meta.env.BASE_URL}${product.image.replace(/^\/+/, '')}`}
+                  alt={product.name}
+                />
               </div>
 
               <div className="product_content">
                 <div className="product_meta">
                   <span className="product_badge">{product.badge}</span>
-                  <span className="product_category">{product.category}</span>
+                  
                 </div>
 
                 <h3>{product.name}</h3>

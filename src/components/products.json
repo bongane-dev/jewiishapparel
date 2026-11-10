@@ -1,8 +1,7 @@
- 
- {
+   { 
 "ProductTops": [
     {
-        "id": 1,
+        "id": "T01",
         "category": "Tops",
         "name": "Hoody green",
         "price": 100,
@@ -12,7 +11,7 @@
        
       },
       {
-        "id": 2,
+        "id": "T02",
         "category": "Tops",
         "name": "Hoody red",
         "price": 100,
@@ -21,7 +20,7 @@
         "image": "/product_assets/tops/T_id2.jpg"
       },
       {
-         "id": 3,
+         "id": "T03",
         "category": "Tops",
         "name": "Hoody White",
         "price": 100,
@@ -30,7 +29,7 @@
         "image": "/product_assets/tops/T_id3.jpg"
       },
        {
-        "id": 4,
+        "id": "T04",
         "category": "Tops",
         "name": "Hoody Brown",
         "price": 100,
@@ -39,7 +38,7 @@
         "image": "/product_assets/tops/T_id4.jpg"
       },
        {
-        "id": 5,
+        "id": "T05",
         "category": "Tops",
         "name": "Ashen Fade Shirt",
         "price": 150,
@@ -48,7 +47,7 @@
         "image": "/product_assets/tops/T_id5.jpg"
       },
        {
-        "id": 6,
+        "id": "T06",
         "category": "Tops",
         "name": "White ",
         "price": 100,
@@ -57,7 +56,7 @@
         "image": "/product_assets/tops/T_id6.jpg"
       },
        {
-        "id": 7,
+        "id": "T07",
         "category": "Tops",
         "name": "Represent",
         "price": 100,
@@ -66,7 +65,7 @@
         "image": "/product_assets/tops/T_id7.jpg"
       },
        {
-        "id": 8,
+        "id": "T08",
         "category": "Tops",
         "name": "Legacy Tee",
         "price": 100,
@@ -75,7 +74,7 @@
         "image": "/product_assets/tops/T_id8.jpg"
       },
        {
-        "id": 9,
+        "id": "T09",
         "category": "Tops",
         "name": "Graphic Tees",
         "price": 100,
@@ -84,7 +83,7 @@
         "image": "/product_assets/tops/T_id9.jpg"
       },
        {
-        "id": 10,
+        "id": "T01",
         "category": "Tops",
         "name": "Red statement",
         "price": 100,
@@ -93,7 +92,7 @@
         "image": "/product_assets/tops/T_id10.jpg"
       },
        {
-        "id": 11,
+        "id": "T01",
         "category": "Tops",
         "name": "Global Origanals",
         "price": 100,
