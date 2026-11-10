@@ -71,18 +71,127 @@
 }
 
 .products {
+  width: min(100%, 1200px);
   min-height: 3rem;
   text-align: center;
 }
 
 .selected_category {
-  margin: 0;
+  margin: 0 0 1.25rem;
   color: #b7a995;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .selected_category span {
   color: #f0cf82;
   font-weight: 700;
+}
+
+.product_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.product_box {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(220, 174, 87, 0.25);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(29, 23, 18, 0.9), rgba(17, 12, 9, 0.95));
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.18);
+  text-align: left;
+}
+
+.product_image_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 0.25rem;
+}
+
+.product_box img {
+  width: 100%;
+  max-width: 14rem;
+  border-radius: 18px;
+  object-fit: cover;
+  transition: transform 220ms ease;
+}
+
+.product_box:hover img {
+  transform: scale(1.04);
+}
+
+.product_content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1rem 1.1rem 1.25rem;
+}
+
+.product_meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: #d9b96e;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.product_badge {
+  color: #f7d47a;
+}
+
+.product_category {
+  color: #d4c8b5;
+}
+
+.product_content h3 {
+  margin: 0;
+  color: #fdf7eb;
+  font-size: 1.2rem;
+}
+
+.product_content p {
+  margin: 0;
+  color: #cebda4;
+  line-height: 1.5;
+}
+
+.product_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.productPrice {
+  margin: 0;
+  color: #f4d38d;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.product_footer button {
+  border: 1px solid rgba(224, 183, 95, 0.6);
+  border-radius: 999px;
+  background: rgba(224, 183, 95, 0.12);
+  padding: 0.65rem 0.95rem;
+  color: #fff4d9;
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 180ms ease, transform 180ms ease;
+}
+
+.product_footer button:hover {
+  background: rgba(224, 183, 95, 0.2);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 600px) {
@@ -101,7 +210,9 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .product_item {
+  .product_item,
+  .product_box img,
+  .product_footer button {
     transition: none;
   }
 }

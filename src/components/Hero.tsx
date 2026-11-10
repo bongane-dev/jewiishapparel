@@ -1,4 +1,4 @@
-import heroVideo from "/public/hero_vid.mp4";
+import heroVideo from "/src/assets/hero_vid.mp4";
 import './Hero.css';
 import img1 from '../assets/heroImages/slide1.jpg';
 import img2 from '../assets/heroImages/slide2.jpg';
@@ -15,8 +15,6 @@ import img12 from '../assets/heroImages/slide12.jpg';
 import img13 from '../assets/heroImages/slide13.jpg';
 import img14 from '../assets/heroImages/slide14.jpg';
 import img15 from '../assets/heroImages/slide15.jpg';
-import founders from '../assets/heroImages/founders.jpg';
-
 
 
 function HeroSection() {

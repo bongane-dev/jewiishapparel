@@ -1,0 +1,108 @@
+ 
+ {
+"ProductTops": [
+    {
+        "id": 1,
+        "category": "Tops",
+        "name": "Hoody green",
+        "price": 100,
+        "badge": "New",
+        "description": "Soft cotton hoody cut for all-day movement and style.",
+        "image":"/product_assets/tops/T_id1.jpg"
+       
+      },
+      {
+        "id": 2,
+        "category": "Tops",
+        "name": "Hoody red",
+        "price": 100,
+        "badge": "Best Seller",
+        "description": "Soft cotton hoody cut for all-day movement and style.",
+        "image": "/product_assets/tops/T_id2.jpg"
+      },
+      {
+         "id": 3,
+        "category": "Tops",
+        "name": "Hoody White",
+        "price": 100,
+        "badge": "Best Seller",
+        "description": "Soft cotton hoody cut for all-day movement and style.",
+        "image": "/product_assets/tops/T_id3.jpg"
+      },
+       {
+        "id": 4,
+        "category": "Tops",
+        "name": "Hoody Brown",
+        "price": 100,
+        "badge": " New Best Seller ",
+        "description": "Soft cotton hoody cut for all-day movement and style.",
+        "image": "/product_assets/tops/T_id4.jpg"
+      },
+       {
+        "id": 5,
+        "category": "Tops",
+        "name": "Ashen Fade Shirt",
+        "price": 150,
+        "badge": "New style-ish shirt",
+        "description": "Relaxed fit with a premium drape and bold front print.",
+        "image": "/product_assets/tops/T_id5.jpg"
+      },
+       {
+        "id": 6,
+        "category": "Tops",
+        "name": "White ",
+        "price": 100,
+        "badge": "Best Seller premium",
+        "description": "Relaxed fit with a premium  bold back print.",
+        "image": "/product_assets/tops/T_id6.jpg"
+      },
+       {
+        "id": 7,
+        "category": "Tops",
+        "name": "Represent",
+        "price": 100,
+        "badge": "Vintage",
+        "description": "Vintage with a premium print.",
+        "image": "/product_assets/tops/T_id7.jpg"
+      },
+       {
+        "id": 8,
+        "category": "Tops",
+        "name": "Legacy Tee",
+        "price": 100,
+        "badge": "Legacy",
+        "description": "Built different from day one.",
+        "image": "/product_assets/tops/T_id8.jpg"
+      },
+       {
+        "id": 9,
+        "category": "Tops",
+        "name": "Graphic Tees",
+        "price": 100,
+        "badge": "Best Seller",
+        "description": "Vintage varsity styling freedom of ambition.",
+        "image": "/product_assets/tops/T_id9.jpg"
+      },
+       {
+        "id": 10,
+        "category": "Tops",
+        "name": "Red statement",
+        "price": 100,
+        "badge": "Best Seller",
+        "description": "Built for streetwear and a feeling of being fearless by nature.",
+        "image": "/product_assets/tops/T_id10.jpg"
+      },
+       {
+        "id": 11,
+        "category": "Tops",
+        "name": "Global Origanals",
+        "price": 100,
+        "badge": "Limited edition",
+        "description": "A shirt which blends old school culture with a modern streetwear design.",
+        "image": "/product_assets/tops/T_id11.jpg"
+      }
+      
+
+      
+    ]
+ }
