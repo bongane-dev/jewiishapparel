@@ -39,12 +39,7 @@ Strength
 Growth
 Confidence
 Creativity
-Brand Colours
-Black:      #0F0F0F
-Gold:       #D4AF37
-Orange:     #FF6B00
-Red:        #D72638
-White:      #FFFFFF
+
 📸 Pages
 Home
 Products
