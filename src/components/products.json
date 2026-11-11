@@ -1,4 +1,4 @@
-   { 
+{ 
 "ProductTops": [
     {
         "id": "T01",
@@ -83,7 +83,7 @@
         "image": "/product_assets/tops/T_id9.jpg"
       },
        {
-        "id": "T01",
+        "id": "T10",
         "category": "Tops",
         "name": "Red statement",
         "price": 100,
@@ -92,7 +92,7 @@
         "image": "/product_assets/tops/T_id10.jpg"
       },
        {
-        "id": "T01",
+        "id": "T11",
         "category": "Tops",
         "name": "Global Origanals",
         "price": 100,
@@ -101,7 +101,128 @@
         "image": "/product_assets/tops/T_id11.jpg"
       }
       
-
+    
       
+
+
+      ,
+       {
+        "id": "H01",
+        "category": "Hats",
+        "name": "Black Bucket hat",
+        "price": 80,
+        "badge": "Best seller",
+        "description": "A comfortable bucket hat for daily wear.",
+        "image": "/product_assets/hats/H_ID1.jpg"
+      }
+      ,
+       {
+        "id": "H02",
+        "category": "Hats",
+        "name": "Camouflage Bucket hat",
+        "price": 80,
+        "badge": "Best seller",
+        "description": "A comfortable bucket hat for daily wear.",
+        "image": "/product_assets/hats/H_ID2.jpg"
+      },
+       {
+        "id": "H03",
+        "category": "Hats",
+        "name": "Brown Bucket hat",
+        "price": 80,
+        "badge": "New",
+        "description": "A comfortable bucket hat for daily wear.",
+        "image": "/product_assets/hats/H_ID3.jpg"
+      },
+       {
+        "id": "H04",
+        "category": "Hats",
+        "name": "Black cap",
+        "price": 60,
+        "badge": "Best seller",
+        "description": "A comfortable cap for daily wear.",
+        "image": "/product_assets/hats/H_ID4.jpg"
+      },
+       {
+        "id": "H05",
+        "category": "Hats",
+        "name": "Pink Cap",
+        "price": 60,
+        "badge": "New",
+        "description": "A comfortable cap for daily wear.",
+        "image": "/product_assets/hats/H_ID5.jpg"
+      },
+       {
+        "id": "H06",
+        "category": "Hats",
+        "name": "Black Cap",
+        "price": 60,
+        "badge": "Best seller",
+        "description": "A comfortable cap for daily wear.",
+        "image": "/product_assets/hats/H_ID6.jpg"
+      },
+       {
+        "id": "H07",
+        "category": "Hats",
+        "name": "Gray Cap",
+        "price": 60,
+        "badge": "Best Streetwear",
+        "description": "A comfortable cap for daily wear.",
+        "image": "/product_assets/hats/H_ID7.jpg"
+      },
+       {
+        "id": "H08",
+        "category": "Hats",
+        "name": "Vintage Cap",
+        "price": 100,
+        "badge": "Best seller",
+        "description": "A vintage mordern style-ish cap for dialy wear",
+        "image": "/product_assets/hats/H_ID8.jpg"
+      },
+       {
+        "id": "H09",
+        "category": "Hats",
+        "name": "Red Cap",
+        "price": 80,
+        "badge": "Limited edition",
+        "description": "A comfortable cap for daily wear.",
+        "image": "/product_assets/hats/H_ID9.jpg"
+      },
+       {
+        "id": "H10",
+        "category": "Hats",
+        "name": "White binny",
+        "price": 80,
+        "badge": "Best seller",
+        "description": "A comfortable winter binny with the style-ish print of the apparel.",
+        "image": "/product_assets/hats/H_ID10.jpg"
+      },
+       {
+        "id": "H11",
+        "category": "Hats",
+        "name": "Pink binny",
+        "price": 100,
+        "badge": "Best seller",
+        "description": "A comfortable winter binny with the style-ish print of the apparel.",
+        "image": "/product_assets/hats/H_ID11.jpg"
+      },
+       {
+        "id": "H12",
+        "category": "Hats",
+        "name": "Vintage Cap 2",
+        "price": 80,
+        "badge": "Best seller",
+        "description": "Vintage cap 2 with a bolder redish style.",
+        "image": "/product_assets/hats/H_ID12.jpg"
+      },
+       {
+        "id": "H13",
+        "category": "Hats",
+        "name": "Vintage Cap 3",
+        "price": 180,
+        "badge": "Premium",
+        "description": "New stylish vintage cap.",
+        "image": "/product_assets/hats/H_ID13.jpg"
+      }
     ]
  }
