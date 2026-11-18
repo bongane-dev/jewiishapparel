@@ -1,0 +1,13 @@
+.events_section{
+display: flex;
+ justify-content:center ;
+ background-color: rgb(48, 19, 15);
+ color: #f4e3bf;
+ border-radius: 30px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+.events_section h1{
+
+}

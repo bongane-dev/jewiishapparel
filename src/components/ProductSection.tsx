@@ -37,7 +37,7 @@ export default function ProductSection() {
           <span>{activeCategory}</span>
         </p>
 
-        <div className="product_grid">
+        <div className="product_grid" id='ProductSectionGrid'>
           {visibleProducts.map((product) => (
             <article className="product_box" key={product.id}>
               <div className="product_image_wrapper">

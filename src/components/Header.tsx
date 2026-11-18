@@ -1,5 +1,5 @@
 import './Header.css';
-// import ProductSection from './ProductSection';
+
 
 function HeaderSection() {
   const signUp = 'Sign up';
@@ -20,13 +20,13 @@ function HeaderSection() {
         </div>
 
         <section className="mini_nav">
-          <p className="logo_item">{signUp}</p>
-          <p className="logo_item">{signIn}</p>
+          <p className="logo_item"><a href='#'>{signUp}</a></p>
+          <p className="logo_item"><a href='#'>{signIn}</a></p>
         </section>
       </section>
 
       <nav className="nav_bar" aria-label="Main navigation">
-        <p className="nav_item"><a href="#product_section">{navList.navitems[0].toUpperCase()}</a></p>
+        <p className="nav_item"><a href="#ProductSectionGrid">{navList.navitems[0].toUpperCase()}</a></p>
         <p className="nav_item"><a href="#">{navList.navitems[1].toUpperCase()}</a></p>
         <p className="nav_item"><a href="#">{navList.navitems[2].toUpperCase()}</a></p>
       </nav>
